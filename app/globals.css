@@ -21,3 +21,7 @@
     @apply bg-base text-content;
   }
 }
+
+.custom-gradient{
+  background: linear-gradient(135deg, #8f56cc 0%, #5d4ec4 100%);
+}
