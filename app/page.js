@@ -1,6 +1,7 @@
 "use client";
 import { Hero } from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
 export default function Home() {
   return (
    <div className="max-w-6xl mx-auto w-[90%]">
@@ -11,6 +12,7 @@ export default function Home() {
     
     <Navbar/>
     <Hero/>
+    <Portfolio/>
    </div>
   );
 }
