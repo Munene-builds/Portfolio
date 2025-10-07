@@ -2,6 +2,8 @@
 import { Hero } from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import {Resume} from "./components/Resume";
 export default function Home() {
   return (
    <div className="max-w-6xl mx-auto w-[90%]">
@@ -13,6 +15,8 @@ export default function Home() {
     <Navbar/>
     <Hero/>
     <Portfolio/>
+    <About />
+    <Resume />
    </div>
   );
 }
